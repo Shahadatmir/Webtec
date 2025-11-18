@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Admission Form</title>
+</head>
+<body>
+
+<h2>Online Admission Form</h2>
+
+<form>
+
+    <!-- Personal Information -->
+    <fieldset>
+        <legend>Personal Info</legend>
+
+        Name: <input type="text" name="name" required maxlength="40"><br><br>
+
+        Email: <input type="email" name="email" required><br><br>
+
+        Date of Birth: <input type="date" name="dob" required><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+    </fieldset>
+    <br>
+
+    <!-- Academic Information -->
+    <fieldset>
+        <legend>Academic Info</legend>
+
+        Last Institution: <input type="text" name="school" required><br><br>
+
+        Grade/Result: <input type="text" name="grade" required maxlength="5"><br><br>
+
+        Preferred Department:
+        <select name="dept" required>
+            <option value="">Select</option>
+            <option>CSE</option>
+            <option>BBA</option>
+            <option>EEE</option>
+            <option>English</option>
+        </select>
+        <br><br>
+
+        Interests:
+        <input type="checkbox" name="int1"> Programming
+        <input type="checkbox" name="int2"> Sports
+        <input type="checkbox" name="int3"> Arts
+        <br><br>
+    </fieldset>
+    <br>
+
+    <!-- Documents -->
+    <fieldset>
+        <legend>Documents</legend>
+
+        Upload Transcript: 
+        <input type="file" name="transcript" required><br><br>
+
+        Upload Photo:
+        <input type="file" name="photo" required>
+        <br><br>
+    </fieldset>
+    <br>
+
+    <!-- Buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
