@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <style>
+        /* General section styles */
+        .section {
+            padding: 30px;
+            margin: 20px 0;
+            color: white;
+            border-radius: 8px;
+        }
+
+        /* Unique background colors for each section */
+        #about { background-color: #FF6F61; }    /* Coral */
+        #education { background-color: #6B5B95; } /* Purple */
+        #hobbies { background-color: #88B04B; }   /* Green */
+
+        /* Custom horizontal rule */
+        hr {
+            border: none;
+            height: 4px;
+            background-color: #333;
+            width: 80%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+<div id="about" class="section">
+    <h2>About Me</h2>
+    <p style="color: yellow;">Hi! I'm Abir, a student and a budding entrepreneur exploring tech and creativity.</p>
+</div>
+
+<hr>
+
+<div id="education" class="section">
+    <h2>Education</h2>
+    <p>I am currently pursuing Computer Science and engaging in online business projects.</p>
+</div>
+
+<hr>
+
+<div id="hobbies" class="section">
+    <h2>Hobbies</h2>
+    <p>I love coding, designing graphics, digital marketing, and exploring innovative business ideas.</p>
+</div>
+
+</body>
+</html>
